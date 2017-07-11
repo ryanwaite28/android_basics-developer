@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="song_price">$1.99</string>
+</resources>

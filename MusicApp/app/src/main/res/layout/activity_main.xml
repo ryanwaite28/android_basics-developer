@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wallpaper3"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:alpha="0.7" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Wave Central"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="16dp"
+        style="@style/WelcomeText" />
+
+    <TextView
+        android:id="@+id/welcome_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to Wave Central,\nwhere songs are discovered!\nListen to the music of the world!\n"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/welcome_text"
+        android:textColor="#fff"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/entry_btn"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:text="Select Music"
+        android:layout_below="@id/welcome_desc"/>
+
+    <Button
+        android:id="@+id/entry_btn_two"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:text="Purchasing"
+        android:layout_below="@id/entry_btn"/>
+
+</RelativeLayout>

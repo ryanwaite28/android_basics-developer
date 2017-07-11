@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="productid" type="id"/>
+    <item name="productstock" type="id"/>
+    <item name="productname" type="id"/>
+    <item name="productimg" type="id"/>
+    <item name="productprice" type="id"/>
+    <item name="productdesc" type="id"/>
+    <item name="producturi" type="id"/>
+</resources>

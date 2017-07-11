@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.android.booksapiapp.BookViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/book_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            style="@style/BookItem"
+            android:text="@string/Title"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/book_title"
+            style="@style/BookItem"
+            android:layout_marginBottom="16dp"
+            tools:text="Title"/>
+
+        <TextView
+            style="@style/BookItem"
+            android:text="@string/Author"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/book_author"
+            style="@style/BookItem"
+            android:layout_marginBottom="16dp"
+            tools:text="Author"/>
+
+        <TextView
+            style="@style/BookItem"
+            android:textStyle="bold"
+            android:text="@string/Description"/>
+        <TextView
+            android:id="@+id/book_description"
+            style="@style/BookItem"
+            android:layout_marginBottom="16dp"
+            tools:text="Description"/>
+
+        <TextView
+            style="@style/BookItem"
+            android:textStyle="bold"
+            android:text="@string/Publisher"/>
+        <TextView
+            android:id="@+id/book_publisher"
+            style="@style/BookItem"
+            android:layout_marginBottom="16dp"
+            tools:text="Publisher"/>
+
+        <TextView
+            style="@style/BookItem"
+            android:textStyle="bold"
+            android:text="@string/PublishDate"/>
+        <TextView
+            android:id="@+id/book_publishdate"
+            style="@style/BookItem"
+            android:layout_marginBottom="16dp"
+            tools:text="Publish Date"/>
+
+        <TextView
+            style="@style/BookItem"
+            android:autoLink="web"
+            android:textStyle="bold"
+            android:text="@string/WebLink"/>
+        <TextView
+            android:id="@+id/book_weblink"
+            style="@style/BookItem"
+            android:autoLink="web"
+            tools:text="Web Link"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/share_email_btn"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/share_email_btn"/>
+
+            <Button
+                android:id="@+id/share_text_btn"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/share_text_btn" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

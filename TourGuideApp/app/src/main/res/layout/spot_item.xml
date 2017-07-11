@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.android.tourguideapp.SpotsActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/spot_icon"
+            android:layout_width="72dp"
+            android:layout_height="72dp" />
+
+        <LinearLayout
+            android:padding="12dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/spot_name"
+                style="@style/SpotItem"
+                tools:text="Name"/>
+
+            <Button
+                android:id="@+id/view_info_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Info"
+                android:onClick="viewSpotInfo"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

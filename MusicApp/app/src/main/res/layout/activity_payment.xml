@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.PaymentActivity">
+
+    <!-- Main -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Purchase Song"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="You can purchase a song with google play! It's really easy and straight-forward. Once you pay, you have it forever!"/>
+
+        <Button
+            android:id="@+id/browse_btn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:text="Browse"
+            android:layout_below="@id/welcome_desc"/>
+
+        <Button
+            android:id="@+id/home_btn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginBottom="32dp"
+            android:text="Home"
+            android:layout_below="@id/entry_btn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Link to Library/API:"/>
+        <TextView
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="https://developer.android.com/google/play/billing/billing_library.html"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="This is a library from Google play that allows in-app billing with a simple, straightforward interface. Below is a broad overview of how to implement this feature in an app:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="&#8226; Update AndroidManifext file to give permission to billing\n&#8226; Update the app dependencies in build.gradle\n&#8226; Create a billing clint\n&#8226; Connect to the in-app billing service\n&#8226; Send in-app billing requests from your app to the in-app billing service\n&#8226; Handle in-app responses from google play"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="So, when a user clicks the buy button, there would be a function that would send a request to the billing service and handle the response from google play."/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.SongSelectActivity">
+
+    <!-- Main -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:text="Browse Songs"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Select a song below to listen to by tapping the play/pause button! If you like it, tap the buy button to purchase it!"/>
+
+        <!-- First -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF3535"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/musicBlockItem"
+                android:text="Fatima - Do Better" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_listen_btn_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play/Pause"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/song_buy_btn_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy $1.99"
+                    android:layout_margin="8dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Second -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7635FF"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/musicBlockItem"
+                android:text="Alice Fredenham - My Funny Valentine" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_listen_btn_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play/Pause"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/song_buy_btn_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy $1.99"
+                    android:layout_margin="8dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Third -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3586FF"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/musicBlockItem"
+                android:text="Adele - Right as Rain" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/song_listen_btn_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play/Pause"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/song_buy_btn_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy $1.99"
+                    android:layout_margin="8dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/home_btn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Home"
+            android:layout_below="@id/entry_btn"/>
+
+    </LinearLayout>
+
+</ScrollView>

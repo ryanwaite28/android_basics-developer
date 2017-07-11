@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+
+    <!-- Layouts -->
+
+    <string name="welcome_header">Tour Guide App</string>
+    <string name="welcome_desc">Lets Explore\nThe DMV!!!\nDC | MD | VA</string>
+    <string name="restaurants_btn">Restaurants</string>
+    <string name="shopping_btn">Shopping</string>
+    <string name="venues_btn">Venues</string>
+    <string name="museums_btn">Museums</string>
+    <string name="maps_btn">Map</string>
+    <string name="share_email_btn">Email</string>
+    <string name="share_text_btn">Text</string>
+
+
+
+    <!-- Restaruants | rs = Restaurant Spot -->
+
+    <string name="rs_one_name">Vapiano</string>
+    <string name="rs_one_type">Restaurant</string>
+    <string name="rs_one_street">1800 M St</string>
+    <string name="rs_one_city">NW</string>
+    <string name="rs_one_state">Washington DC</string>
+    <string name="rs_one_zipcode">20036</string>
+    <string name="rs_one_link">http://us.vapiano.com/en/magazine/</string>
+    <string name="rs_one_phone">(202) 640-1868</string>
+
+    <string name="rs_two_name">Busboys and Poets</string>
+    <string name="rs_two_type">Restaurant</string>
+    <string name="rs_two_street">2021 14th St</string>
+    <string name="rs_two_city">NW</string>
+    <string name="rs_two_state">Washington DC</string>
+    <string name="rs_two_zipcode">20009</string>
+    <string name="rs_two_link">http://www.busboysandpoets.com/</string>
+    <string name="rs_two_phone">(202) 387-7638</string>
+
+    <string name="rs_three_name">Luke\'s Lobster Penn Quarter</string>
+    <string name="rs_three_type">Restaurant</string>
+    <string name="rs_three_street">624 E St</string>
+    <string name="rs_three_city">NW</string>
+    <string name="rs_three_state">Washington DC</string>
+    <string name="rs_three_zipcode">20004</string>
+    <string name="rs_three_link">https://www.lukeslobster.com/location/penn-quarter/</string>
+    <string name="rs_three_phone">(202) 347-3355</string>
+
+    <string name="rs_four_name">Mastro\'s Steakhouse</string>
+    <string name="rs_four_type">Restaurant</string>
+    <string name="rs_four_street">600 13th St</string>
+    <string name="rs_four_city">NW</string>
+    <string name="rs_four_state">Washington DC</string>
+    <string name="rs_four_zipcode">20005</string>
+    <string name="rs_four_link">http://www.mastrosrestaurants.com/</string>
+    <string name="rs_four_phone">(202) 347-1500</string>
+
+    <!-- Shopping | ss = Shopping Spot -->
+
+    <string name="ss_one_name">City Center DC</string>
+    <string name="ss_one_type">Shopping</string>
+    <string name="ss_one_street">825 10th St</string>
+    <string name="ss_one_city">NW</string>
+    <string name="ss_one_state">Washington DC</string>
+    <string name="ss_one_zipcode">20001</string>
+    <string name="ss_one_link">http://citycenterdc.com/</string>
+    <string name="ss_one_phone">(202) 289-9000</string>
+
+    <string name="ss_two_name">Shops at The Columbia</string>
+    <string name="ss_two_type">Shopping</string>
+    <string name="ss_two_street">2425 L St</string>
+    <string name="ss_two_city">NW</string>
+    <string name="ss_two_state">Washington DC</string>
+    <string name="ss_two_zipcode">20037</string>
+    <string name="ss_two_link">http://www.regencycenters.com/</string>
+    <string name="ss_two_phone">(703) 442-4300</string>
+
+    <string name="ss_three_name">Downtown Silver Spring</string>
+    <string name="ss_three_type">Shopping</string>
+    <string name="ss_three_street">908 Ellsworth Dr</string>
+    <string name="ss_three_city">Silver Spring</string>
+    <string name="ss_three_state">Maryland</string>
+    <string name="ss_three_zipcode">20910</string>
+    <string name="ss_three_link">http://downtownsilverspring.com</string>
+    <string name="ss_three_phone">(301) 587-0867</string>
+
+    <string name="ss_four_name">Pike &amp; Rose</string>
+    <string name="ss_four_type">Shopping</string>
+    <string name="ss_four_street">11580 Old Georgetown Rd</string>
+    <string name="ss_four_city">North Bethesda</string>
+    <string name="ss_four_state">Maryland</string>
+    <string name="ss_four_zipcode">20852</string>
+    <string name="ss_four_link">http://www.pikeandrose.com/</string>
+    <string name="ss_four_phone">(301) 761-2567</string>
+
+    <!-- Venues | vs = Venue Spot -->
+
+    <string name="vs_one_name">AMP by Strathmore</string>
+    <string name="vs_one_type">Venue</string>
+    <string name="vs_one_street">11810 Grand Park Ave</string>
+    <string name="vs_one_city">North Bethesda</string>
+    <string name="vs_one_state">Maryland</string>
+    <string name="vs_one_zipcode">20852</string>
+    <string name="vs_one_link">http://ampbystrathmore.com/</string>
+    <string name="vs_one_phone">(301) 581-5100</string>
+
+    <string name="vs_two_name">Jammin Java</string>
+    <string name="vs_two_type">Venue</string>
+    <string name="vs_two_street">227 Maple Ave E</string>
+    <string name="vs_two_city">Vienna</string>
+    <string name="vs_two_state">Virginia</string>
+    <string name="vs_two_zipcode">22180</string>
+    <string name="vs_two_link">http://jamminjava.com/</string>
+    <string name="vs_two_phone">(703) 255-1566</string>
+
+    <string name="vs_three_name">The Fillmore</string>
+    <string name="vs_three_type">Venue</string>
+    <string name="vs_three_street">8656 Colesville Rd</string>
+    <string name="vs_three_city">Silver Spring</string>
+    <string name="vs_three_state">Maryland</string>
+    <string name="vs_three_zipcode">20910</string>
+    <string name="vs_three_link">http://fillmoresilverspring</string>
+    <string name="vs_three_phone">(301) 960-9999</string>
+
+    <string name="vs_four_name">U Street Music Hall</string>
+    <string name="vs_four_type">Venue</string>
+    <string name="vs_four_street">1115A U St</string>
+    <string name="vs_four_city">NW</string>
+    <string name="vs_four_state">Washington DC</string>
+    <string name="vs_four_zipcode">20009</string>
+    <string name="vs_four_link">http://ustreetmusichall.com/</string>
+    <string name="vs_four_phone">(202) 588-1889</string>
+
+    <!-- Museums | ms = Museum Spot -->
+
+    <string name="ms_one_name">National Museum of the American Indian</string>
+    <string name="ms_one_type">Museum</string>
+    <string name="ms_one_street">4th St SW &amp; Independence Ave</string>
+    <string name="ms_one_city">SW</string>
+    <string name="ms_one_state">Washington DC</string>
+    <string name="ms_one_zipcode">20560</string>
+    <string name="ms_one_link">http://nmai.si.edu/</string>
+    <string name="ms_one_phone">(202) 633-1000</string>
+
+    <string name="ms_two_name">Smithsonian National Air and Space Museum</string>
+    <string name="ms_two_type">Museum</string>
+    <string name="ms_two_street">600 Independence Ave</string>
+    <string name="ms_two_city">SW</string>
+    <string name="ms_two_state">Washington DC</string>
+    <string name="ms_two_zipcode">20560</string>
+    <string name="ms_two_link">https://airandspace.si.edu/</string>
+    <string name="ms_two_phone">(202) 633-2214</string>
+
+    <string name="ms_three_name">National Museum of African American History and Culture</string>
+    <string name="ms_three_type">Museum</string>
+    <string name="ms_three_street">1400 Constitution Ave</string>
+    <string name="ms_three_city">NW</string>
+    <string name="ms_three_state">Washington DC</string>
+    <string name="ms_three_zipcode">20560</string>
+    <string name="ms_three_link">https://nmaahc.si.edu/</string>
+    <string name="ms_three_phone">(844) 750-3012</string>
+
+    <string name="ms_four_name">Smithsonian National Museum of Natural History</string>
+    <string name="ms_four_type">Museum</string>
+    <string name="ms_four_street">10th St. &amp; Constitution Ave</string>
+    <string name="ms_four_city">NW</string>
+    <string name="ms_four_state">Washington DC</string>
+    <string name="ms_four_zipcode">20560</string>
+    <string name="ms_four_link">http://naturalhistory.si.edu/</string>
+    <string name="ms_four_phone">(202) 633-1000</string>
+
+
+</resources>

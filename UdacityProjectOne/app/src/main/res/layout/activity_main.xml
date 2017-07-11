@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.udacityprojectone.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/studio2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="Ultima Recording Studio"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-light"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Ultima Recording Studio is a famed studio where legends have records timeless hits! We have leading professional engineers with over 10 years of experience dealing with audio."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Everything is done at the best level possible! Record, Mix and Master your next hit song here!"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/contacticon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/microphoneclipart"/>
+
+            <TextView
+                android:id="@+id/contactname"
+                android:layout_toRightOf="@id/contacticon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:textSize="16sp"
+                android:text="Ultima Recording Studio" />
+
+            <TextView
+                android:id="@+id/contactloc"
+                android:layout_toRightOf="@id/contacticon"
+                android:layout_below="@id/contactname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:textSize="16sp"
+                android:text="123 Fake Street, Ordaine MD" />
+
+            <TextView
+                android:id="@+id/contactwebsite"
+                android:layout_toRightOf="@id/contacticon"
+                android:layout_below="@id/contactloc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textSize="16sp"
+                android:autoLink="web"
+                android:text="ultima-recording-studio.com" />
+
+            <TextView
+                android:id="@+id/contactphone"
+                android:layout_toRightOf="@id/contacticon"
+                android:layout_below="@id/contactwebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textSize="16sp"
+                android:text="1+ (123) 456 - 7890" />
+
+            <TextView
+                android:id="@+id/contacthos"
+                android:layout_toRightOf="@id/contacticon"
+                android:layout_below="@id/contactphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textSize="16sp"
+                android:text="Mon - Sat | 9:00 AM - 9:00 PM" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

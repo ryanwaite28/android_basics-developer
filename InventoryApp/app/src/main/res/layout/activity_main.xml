@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.inventoryapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/wallpaper_view"
+        android:src="@drawable/wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/wallpaper_dim"
+        android:background="#000"
+        android:alpha="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/welcome_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_header"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="125dp"
+        android:padding="16dp"
+        android:textSize="40sp" />
+
+    <ProgressBar
+        android:id="@+id/welcome_progressbar"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/welcome_header"/>
+
+    <TextView
+        android:id="@+id/msg_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/welcome_progressbar"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:text="@string/error_msg"/>
+
+</RelativeLayout>

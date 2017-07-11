@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.scoreapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <!-- Redskins ViewGroup -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Redskins"/>
+
+            <TextView
+                android:id="@+id/redskinsscoreview"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="32sp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/redskins_touchdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="TouchDown\n+6"
+                android:onClick="redSkins_touchDown" />
+            <Button
+                android:id="@+id/redskins_fieldgoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Field Goal\n+3"
+                android:onClick="redSkins_fieldGoal" />
+            <Button
+                android:id="@+id/redskins_twopointconvert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="2pt Conversion\n+2"
+                android:onClick="redSkins_twoPointConversion" />
+            <Button
+                android:id="@+id/redskins_tdfieldgoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="TD Field Goal\n+1"
+                android:onClick="redSkins_touchdownFieldGoal" />
+
+        </LinearLayout>
+
+        <!-- Cowboys ViewGroup -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Cowboys"/>
+
+            <TextView
+                android:id="@+id/cowboysscoreview"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="32sp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/cowboys_touchdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="TouchDown\n+6"
+                android:onClick="cowBoys_touchDown" />
+            <Button
+                android:id="@+id/cowboys_fieldgoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Field Goal\n+3"
+                android:onClick="cowBoys_fieldGoal" />
+            <Button
+                android:id="@+id/cowboys_twopointconvert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="2pt Conversion\n+2"
+                android:onClick="cowBoys_twoPointConversion" />
+            <Button
+                android:id="@+id/cowboys_tdfieldgoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="TD Field Goal\n+1"
+                android:onClick="cowBoys_touchdownFieldGoal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Reset Score"
+        android:onClick="resetScore"/>
+
+    <TextView
+        android:id="@+id/gamemessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text=""
+        android:textSize="16sp"/>
+
+</LinearLayout>

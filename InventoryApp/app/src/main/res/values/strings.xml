@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <string name="welcome_header">Music Palace</string>
+    <string name="error_msg">Something went wrong...</string>
+    <string name="empty_list">No Items, yet. Please tap the pencil icon at the bottom right to get started.</string>
+
+    <string name="ProductName">Product Name</string>
+    <string name="ProductDesc">Product Description</string>
+    <string name="ProductStock">Product Stock</string>
+    <string name="ProductPrice">Product Price</string>
+    <string name="addBtn">Add Product</string>
+    <string name="editBtn">Edit Product</string>
+    <string name="deleteBtn">Delete Product</string>
+    <string name="stockprefix">Stock:</string>
+    <string name="orderBtn">Order</string>
+    <string name="stock_available">Available:</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="orderLabel">Order:</string>
+    <string name="detailsLabel">Details</string>
+    <string name="stockError">Currently Out of Stock...</string>
+    <string name="minimumError">The order amount must be above 0.</string>
+    <string name="maximunError">The order amount must be equal to or below</string>
+    <string name="thanks">Thanks for ordering</string>
+    <string name="orderConf">Order Confirmation</string>
+    <string name="conf_msg">Please Select Confirm to Confirm Action</string>
+    <string name="confirm">Confirm</string>
+    <string name="cameraBtn">Upload Image</string>
+    <string name="image_standby">Image Collected!</string>
+    <string name="img_path">/inventoryapp_images</string>
+    <string name="sale">Sale</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="details">Details</string>
+    <string name="currency_sign">$</string>
+    <string name="increaseStock">Increase Stock</string>
+
+    <string name="nameCheck">Product Name field Must be at least 3 characters</string>
+    <string name="descCheck">Description Cannot Be Empty</string>
+    <string name="stockCheck">Stock Minimum is 0</string>
+    <string name="priceCheck">Price Minimum is $1</string>
+    <string name="imgCheck">An image is required. Tap the upload image button to take a picture of the product</string>
+</resources>

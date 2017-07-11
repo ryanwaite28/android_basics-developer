@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">The Guardian - News Source</string>
+    <string name="emptyList">No Results...</string>
+
+    <string name="null_title">Title not specified...</string>
+    <string name="null_desc">Description not specified...</string>
+    <string name="null_author">Author not specified...</string>
+    <string name="null_publishdate">Publish Date not specified...</string>
+    <string name="null_link">Web Link not specified...</string>
+</resources>

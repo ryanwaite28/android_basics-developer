@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Books API App</string>
+
+    <string name="home_text_one">Explore All The Books Out There!</string>
+    <string name="home_text_two">Search a Book</string>
+    <string name="submit_btn">Submit</string>
+    <string name="maps_btn">Map</string>
+    <string name="share_email_btn">Email</string>
+    <string name="share_text_btn">Text</string>
+
+    <string name="query_title_pre">Results For:</string>
+
+    <string name="api_key">AIzaSyA9pQUHVUHz0NC27oeFtJrxTiv_vtNsXWI</string>
+
+    <string name="Title">Title</string>
+    <string name="Author">Author</string>
+    <string name="Description">Description</string>
+    <string name="Publisher">Publisher</string>
+    <string name="PublishDate">Publish Date</string>
+    <string name="WebLink">Web Link</string>
+
+    <string name="emptyList">No Results...</string>
+</resources>
