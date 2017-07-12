@@ -4,7 +4,7 @@
 #### https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803
 
 ______________________________________________________
-![]()
+![](http://i.imgur.com/GZ3YY4G.png)
 ______________________________________________________
 
 >This NanoDegree program was given to me by the AT&T aspire tech scholarship program from Udacity.
